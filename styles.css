@@ -21,7 +21,7 @@ body {
 header {
     display: flex;
     height: 94px;
-    width: 95%;
+    width: 100%;
     background-color: #2e2f3d;
     justify-content: space-between;
 }
@@ -50,7 +50,7 @@ header {
     justify-content: space-between;
     width: 595px;
 }
-.stats {
+.options {
     display: flex;
     height: 100%;
     align-items: center;
@@ -63,14 +63,14 @@ header {
     width: 375px;
     color: #ffffff;
 }
-.stat {
+.option {
     display: flex;
     background: #3b3c49;
     border-radius: 5px;
     padding: 9px;
     align-items: center;
 }
-.stat_red {
+.option_red {
     padding: 6px 9px;
 }
 .avatar {
@@ -133,7 +133,7 @@ header {
     background-repeat: no-repeat;
     background-size: contain;
     width: 100%;
-    height: 186px;
+    height: 150px;
     border-top: 1px solid #2e2f3d;
 }
 .image1 {
@@ -228,9 +228,9 @@ header {
     line-height: 18px;
     color: #ffffff;
     opacity: 0.5;
+    white-space: normal;
 }
 .description {
-    width: 265px;
     height: 98px;
     padding-top: 20px;
     padding-left: 20px;
@@ -240,7 +240,6 @@ header {
 }
 .card_footer {
     display: flex;
-    width: 285px;
     height: 82px;
     margin-left: 20px;
     margin-right: 20px;
@@ -387,7 +386,7 @@ hr {
     width: 100%;
     justify-content: space-between;
 }
-.years {
+.year {
     font-family: Jost;
     font-style: normal;
     font-weight: 500;
